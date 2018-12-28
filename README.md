@@ -8,7 +8,7 @@ This Image Classifier is used to detect Malaria Cells in a Human.The test accura
 
 ## Modules Used
 - Keras
-- scikit-learn
+- random
 - numpy
 - os
 - opencv
