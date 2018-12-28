@@ -3,7 +3,7 @@ This Image Classifier is used to detect Malaria Cells in a Human.
 
 ## How to use
 - ***Train*** directory contains the training dataset images.
-- ***Saved_Model*** will contain the already trained Classifier model.
+- ***Saved_Model*** will contain the already trained Classifier model.The test accuracy of this model is ***96.2 %*** .
 - ***CNN.py*** is the script to design the Conv-net.
 
 ## Modules Used
