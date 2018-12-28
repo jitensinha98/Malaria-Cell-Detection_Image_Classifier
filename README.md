@@ -12,7 +12,6 @@ This Image Classifier is used to detect Malaria Cells in a Human.The test accura
 - numpy
 - os
 - opencv
-- matplotlib
 
 ## Description
 The Dataset is obtained from Kaggle. [Click Here](https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria/home) for more information.
