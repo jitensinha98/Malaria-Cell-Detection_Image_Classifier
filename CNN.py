@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense,Conv2D,MaxPool2D,Flatten,Dropout
-from sklearn.utils import shuffle
+import random
 from tqdm import tqdm
 
 train_path_infected = 'Train/Parasitized'
@@ -37,7 +37,7 @@ for img_file2 in tqdm(os.listdir(train_path_normal)):
 	img2 = cv2.resize(cv2.imread(img_normal,cv2.IMREAD_GRAYSCALE),(img_size,img_size))
 	training_data.append([np.array(img2),np.array(img_label2)])
 
-shuffle(training_data,random_state=23)
+random.shuffle(training_data)
 
 train_data=training_data[:-500]
 test_data=training_data[-500:]
