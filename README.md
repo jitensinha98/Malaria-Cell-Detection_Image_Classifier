@@ -1,5 +1,5 @@
 # Malaria-Cell-Detection_Image_Classifier
-This Image Classifier is used to detect Malaria Cells in a Human.
+This Image Classifier is used to detect Malaria Cells in a Human.The test accuracy of this model is ***96.2 %*** .
 
 ## How to use
 - ***Train*** directory contains the training dataset images.
